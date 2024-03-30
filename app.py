@@ -6,9 +6,9 @@ import pytesseract
 
 app = Flask(__name__)
 
-openai.api_key = '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'
+openai.api_key = 'Your Api Key'
 
-youtube_api_key = 'AIzaSyDM5CqqIs7NMaZ8aPfVnFVo0sBUXnDo100'
+youtube_api_key = 'Your Api Key'
 
 youtube = build('youtube', 'v3', developerKey=youtube_api_key)
 
@@ -82,10 +82,10 @@ if __name__ == '__main__':
 # app = Flask(__name__)
 
 # # Set up OpenAI API key
-# api_key = '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'
+# api_key = 'Your APi Key'
 
 # # Set up YouTube API key
-# youtube_api_key = 'AIzaSyDM5CqqIs7NMaZ8aPfVnFVo0sBUXnDo100'
+# youtube_api_key = 'Your Api Key'
 
 # # Create YouTube API client
 # youtube = build('youtube', 'v3', developerKey=youtube_api_key)
